@@ -2,8 +2,7 @@ import React from "react";
 
 const Box = (props) => {
   // only change code below this line
-  const { size } = props;
-  return <h2>This is a {size}px Component!</h2>;
+  return <h2>This is a {props.size}px Component!</h2>;
   // only change code below this line
 };
 
